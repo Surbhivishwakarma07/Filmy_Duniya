@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Filmy_Duniya/static/css/main.006fe2fb.css",
+    "main.js": "/Filmy_Duniya/static/js/main.ea0a511f.js",
+    "index.html": "/Filmy_Duniya/index.html",
+    "main.006fe2fb.css.map": "/Filmy_Duniya/static/css/main.006fe2fb.css.map",
+    "main.ea0a511f.js.map": "/Filmy_Duniya/static/js/main.ea0a511f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.006fe2fb.css",
+    "static/js/main.ea0a511f.js"
+  ]
+}
