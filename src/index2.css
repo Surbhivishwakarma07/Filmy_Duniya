@@ -1,0 +1,40 @@
+.head{
+    margin-top: 100px;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    color: rgb(79, 76, 118);
+}
+.b1
+{  margin-left: 640px;
+    border: none;
+    color: white;
+    background-color: rgb(79, 76, 118);
+    font-size: 30px;
+    width: 9em;
+    height: 3em;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 30em;
+    z-index: 1;
+}
+.b1::before
+{
+    content: "";
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right,#060230 0%,#096b9c 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.b1:hover:before
+{
+    width: 9em;
+}
